@@ -7,6 +7,7 @@
 }
 .v-right{
     gap: 0.5rem;
+    justify-content: space-between;
 }
 
 .accordion{
@@ -47,4 +48,26 @@
 
 .accordionButton .primaryText{
     font-size: 1.1rem;
+}
+
+
+@media (max-width: 1024px) {
+    .v-container{
+        flex-direction: column;
+    }
+
+    @media (max-width:768px) {
+        .accordionButton .primaryText{
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media(max-width: 520px){
+    .img-container img{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+    }
+    
 }

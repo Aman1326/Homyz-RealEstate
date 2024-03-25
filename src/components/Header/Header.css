@@ -1,5 +1,5 @@
 .h-wrapper{
-    
+    z-index: 1;
     color: white;
 }
 
@@ -28,6 +28,7 @@ cursor: pointer;
     }
 
     .h-menu{
+        z-index: 99;
         color: var(--black);
         position: absolute;
         top: 3rem;
